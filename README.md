@@ -7,7 +7,6 @@ Client sends data → Server (Producer) pushes to Kafka Topic → Kafka stores �
 Kafka supports 2 models:
 - **Pub/Sub Model**
 - **Queue with Partitioning**
-
 ---
 
 ## Why Kafka?
