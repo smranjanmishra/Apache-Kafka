@@ -1,7 +1,8 @@
 # Apache Kafka Notes
 
 ## Kafka Flow
-
+![Kafka Flow](https://github.com/smranjanmishra/Apache-Kafka/blob/main/Kafka%20Flow/The%20way%20Kafka%20Works.png)
+</br>
 Client sends data → Server (Producer) pushes to Kafka Topic → Kafka stores → Worker (Consumer) reads → processes → saves to DB → (optional response to client).
 
 Kafka supports 2 models:
@@ -46,6 +47,7 @@ Kafka supports 2 models:
 ---
 
 ## Uber Example (Diagram Flow)
+![Uber Structure](https://github.com/smranjanmishra/Apache-Kafka/blob/main/Uber%20Structure%20Diagram/Uber%20Structure.png)
 Rider sends a ride request → API Gateway sends to Kafka → Kafka sends to Matching, Trip, Billing → Services process and save to DB → Notifications sent to rider.
 
 ---
