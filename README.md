@@ -124,7 +124,6 @@ Rider sends a ride request → API Gateway sends to Kafka → Kafka sends to Mat
 - Log Aggregation
 - Stream Processing
 - Data Integration
-
 ---
 
 ## Companies Using Kafka
