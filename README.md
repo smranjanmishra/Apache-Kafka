@@ -202,7 +202,6 @@ kafka-topics --create \
 - `--bootstrap-server` → Kafka broker address
 - `--partitions` → Number of partitions
 - `--replication-factor` → Replication factor for high availability
-
 ---
 
 ###  List All Topics
